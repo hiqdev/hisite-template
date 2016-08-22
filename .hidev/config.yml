@@ -1,0 +1,14 @@
+package:
+    type:           project
+    name:           hisite-demo
+    title:          HiSite Demo
+    headline:       HiSite Demo
+    namespace:      hisite\demo
+    description: |
+        HiSite is a way to build Yii2 based sites from building blocks.
+
+        This package is an example of HiSite based site.
+
+hisite:
+    vhost:
+        domain: hisite.hiqdev.com
