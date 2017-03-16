@@ -39,9 +39,7 @@
         }
     ],
     "require": {
-        "yiisoft/yii2-debug": "^2.0",
         "hiqdev/hisite-core": "<2.0 || dev-master",
-        "hiqdev/yii2-cart": "<2.0 || dev-master",
         "hiqdev/yii2-pnotify": "<2.0 || dev-master",
         "hiqdev/yii2-language": "<2.0 || dev-master",
         "hiqdev/yii2-error-notifier": "<2.0 || dev-master",
@@ -50,6 +48,8 @@
         "hiqdev/yii2-theme-original": "<2.0 || dev-master"
     },
     "require-dev": {
+        "yiisoft/yii2-debug": "^2.0",
+        "hiqdev/hidev": "<2.0 || dev-master",
         "hiqdev/hidev-php": "<2.0 || dev-master"
     },
     "autoload": {

@@ -15,6 +15,7 @@ This package is a skeleton to start your project with.
 
 It includes:
 
+- [hisite-core](https://hiqdev.com/packages/hisite-core) - theme manager
 - [yii2-thememanager](https://hiqdev.com/packages/yii2-thememanager) - theme manager
     - [yii2-theme-original](https://hiqdev.com/packages/yii2-theme-original) - Yii2 original theme
     - [yii2-theme-flat](https://hiqdev.com/packages/yii2-theme-original) - flat theme
