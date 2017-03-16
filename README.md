@@ -1,6 +1,6 @@
 # HiSite
 
-**HiSite**
+**HiSite Project Template**
 
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/hisite/v/stable)](https://packagist.org/packages/hiqdev/hisite)
 [![Total Downloads](https://poser.pugx.org/hiqdev/hisite/downloads)](https://packagist.org/packages/hiqdev/hisite)
