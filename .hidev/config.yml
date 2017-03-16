@@ -1,14 +1,62 @@
 package:
     type:           project
-    name:           hisite-demo
-    title:          HiSite Demo
-    headline:       HiSite Demo
-    namespace:      hisite\demo
-    description: |
-        HiSite is a way to build Yii2 based sites from building blocks.
+    name:           hisite
+    title:          HiSite
+    license:        BSD-3-Clause
+    headline:       HiSite
+    namespace:      hisite\skeleton
+    description:    |
+        HiSite is a way to build modular Yii2 projects with plugins.
 
-        This package is an example of HiSite based site.
+        This package is a skeleton to start your project with.
+
+        It includes:
+
+        - [yii2-thememanager](https://hiqdev.com/packages/yii2-thememanager) - theme manager
+            - [yii2-theme-original](https://hiqdev.com/packages/yii2-theme-original) - Yii2 original theme
+            - [yii2-theme-flat](https://hiqdev.com/packages/yii2-theme-original) - flat theme
+        - [yii2-pnotify](https://hiqdev.com/packages/yii2-thememanager) - theme manager
+        - [yii2-language](https://hiqdev.com/packages/yii2-language) - language switcher
+        - [yii2-error-notifier](https://hiqdev.com/packages/yii2-error-notifier) - error notifier
+        - to be continued...
+
+        The project extensively uses [hidev]() tool to automate repetitive tasks:
+
+        - generate and update package files: README, license, composer.json
+        - generate and deploy vhost config file
+        - run standard tasks such as running tests and php-cs-fixer
+        - substitute yii console script
 
 hisite:
     vhost:
         domain: hisite.hiqdev.com
+
+vendor:
+    name:           hiqdev
+    title:          HiQDev
+    homepage:       http://hiqdev.com/
+    authors:
+        hiqsol:
+            name:       Andrii Vasyliev
+            role:       Project lead
+            email:      sol@hiqdev.com
+            github:     https://github.com/hiqsol
+            homepage:   http://hipanel.com/
+        SilverFire:
+            name:       Dmitry Naumenko
+            role:       Lead backend developer
+            email:      d.naumenko.a@gmail.com
+            github:     https://github.com/SilverFire
+            homepage:   http://silverfire.me/
+        tafid:
+            name:       Andrey Klochok
+            role:       Lead frontend developer
+            email:      andreyklochok@gmail.com
+            github:     https://github.com/tafid
+            homepage:   http://hiqdev.com/
+        BladeRoot:
+            name:       Yuriy Myronchuk
+            role:       QA Lead
+            email:      bladeroot@gmail.com
+            github:     https://github.com/BladeRoot
+            homepage:   http://hiqdev.com/
