@@ -1,4 +1,4 @@
-# HiSite
+# HiSite Template
 
 **HiSite Project Template**
 

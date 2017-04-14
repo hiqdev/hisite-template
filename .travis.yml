@@ -4,23 +4,17 @@ php:
     - 7
     - 7.1
     - hhvm
-    - 5.5
 dist: trusty
 matrix:
     allow_failures:
-        0:
+        -
             php: hhvm
-        2:
-            php: 5.5
 cache:
     directories:
         - $HOME/.composer/cache
 before_install:
     - 'composer self-update'
     - 'composer --version'
-    - 'wget http://hiqdev.com/hidev/hidev.phar -O hidev.phar && chmod a+x hidev.phar'
-    - './hidev.phar --version'
-    - './hidev.phar travis/before_install'
     - 'composer install --no-interaction'
     - './vendor/bin/hidev --version'
     - './vendor/bin/hidev travis/before_install'

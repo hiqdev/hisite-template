@@ -2,6 +2,7 @@ package:
     type:           project
     name:           hisite-template
     title:          HiSite Project Template
+    headline:       HiSite Template
     license:        BSD-3-Clause
     headline:       HiSite
     description:    |
