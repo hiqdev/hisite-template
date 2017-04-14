@@ -2,41 +2,51 @@
 
 **HiSite Project Template**
 
-[![Latest Stable Version](https://poser.pugx.org/hiqdev/hisite/v/stable)](https://packagist.org/packages/hiqdev/hisite)
-[![Total Downloads](https://poser.pugx.org/hiqdev/hisite/downloads)](https://packagist.org/packages/hiqdev/hisite)
-[![Build Status](https://img.shields.io/travis/hiqdev/hisite.svg)](https://travis-ci.org/hiqdev/hisite)
-[![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/hiqdev/hisite.svg)](https://scrutinizer-ci.com/g/hiqdev/hisite/)
-[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/hisite.svg)](https://scrutinizer-ci.com/g/hiqdev/hisite/)
-[![Dependency Status](https://www.versioneye.com/php/hiqdev:hisite/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:hisite/dev-master)
+[![Latest Stable Version](https://poser.pugx.org/hiqdev/hisite-template/v/stable)](https://packagist.org/packages/hiqdev/hisite-template)
+[![Total Downloads](https://poser.pugx.org/hiqdev/hisite-template/downloads)](https://packagist.org/packages/hiqdev/hisite-template)
+[![Build Status](https://img.shields.io/travis/hiqdev/hisite-template.svg)](https://travis-ci.org/hiqdev/hisite-template)
+[![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/hiqdev/hisite-template.svg)](https://scrutinizer-ci.com/g/hiqdev/hisite-template/)
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/hisite-template.svg)](https://scrutinizer-ci.com/g/hiqdev/hisite-template/)
+[![Dependency Status](https://www.versioneye.com/php/hiqdev:hisite-template/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:hisite-template/dev-master)
 
 HiSite is a way to build modular Yii2 projects with plugins.
 
-This package is a skeleton to start your project with.
+This package is a template to start your project with.
 
 It includes:
 
-- [hisite-core](https://hiqdev.com/packages/hisite-core) - theme manager
-- [yii2-thememanager](https://hiqdev.com/packages/yii2-thememanager) - theme manager
-    - [yii2-theme-original](https://hiqdev.com/packages/yii2-theme-original) - Yii2 original theme
-    - [yii2-theme-flat](https://hiqdev.com/packages/yii2-theme-original) - flat theme
-- [yii2-pnotify](https://hiqdev.com/packages/yii2-thememanager) - theme manager
-- [yii2-language](https://hiqdev.com/packages/yii2-language) - language switcher
-- [yii2-error-notifier](https://hiqdev.com/packages/yii2-error-notifier) - error notifier
-- to be continued...
+- [hisite] - hisite basic project
+- [yii2-thememanager] - theme manager
+- [yii2-theme-original] - Yii2 original theme
+- [yii2-theme-flat] - flat theme
+- [yii2-pnotify] - JQuery PNotify extension
+- [yii2-language] - language switcher
+- [yii2-monitoring] - application monitoring
 
-The project extensively uses [hidev]() tool to automate repetitive tasks:
+The project uses [hidev] tool to automate repetitive tasks:
 
-- generate and update package files: README, license, composer.json
+- generate and update package files: README, LICENSE, .gitignore, composer.json
+- keep CHANGELOG file with [chkipper]
 - generate and deploy vhost config file
 - run standard tasks such as running tests and php-cs-fixer
 - substitute yii console script
+
+[hidev]:                https://hiqdev.com/packages/hidev
+[hisite]:               https://hiqdev.com/packages/hisite
+[yii2-thememanager]:    https://hiqdev.com/packages/yii2-thememanager
+[yii2-theme-original]:  https://hiqdev.com/packages/yii2-theme-original
+[yii2-theme-flat]:      https://hiqdev.com/packages/yii2-theme-flat
+[yii2-pnotify]:         https://hiqdev.com/packages/yii2-thememanager
+[yii2-language]:        https://hiqdev.com/packages/yii2-language
+[yii2-monitoring]:      https://hiqdev.com/packages/yii2-monitoring
+[chkipper]:             https://hiqdev.com/packages/chkipper
 
 ## Installation
 
 The preferred way to install this project is through [composer](http://getcomposer.org/download/).
 
 ```sh
-php composer.phar create-project "hiqdev/hisite:*" directory2install
+php composer.phar create-project "hiqdev/hisite-template:*" directory2install
 ```
 
 ## License

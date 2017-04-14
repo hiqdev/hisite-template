@@ -1,32 +1,41 @@
 package:
     type:           project
-    name:           hisite
+    name:           hisite-template
     title:          HiSite Project Template
     license:        BSD-3-Clause
     headline:       HiSite
-    namespace:      hisite\skeleton
     description:    |
         HiSite is a way to build modular Yii2 projects with plugins.
 
-        This package is a skeleton to start your project with.
+        This package is a template to start your project with.
 
         It includes:
 
-        - [hisite-core](https://hiqdev.com/packages/hisite-core) - theme manager
-        - [yii2-thememanager](https://hiqdev.com/packages/yii2-thememanager) - theme manager
-            - [yii2-theme-original](https://hiqdev.com/packages/yii2-theme-original) - Yii2 original theme
-            - [yii2-theme-flat](https://hiqdev.com/packages/yii2-theme-original) - flat theme
-        - [yii2-pnotify](https://hiqdev.com/packages/yii2-thememanager) - theme manager
-        - [yii2-language](https://hiqdev.com/packages/yii2-language) - language switcher
-        - [yii2-error-notifier](https://hiqdev.com/packages/yii2-error-notifier) - error notifier
-        - to be continued...
+        - [hisite] - hisite basic project
+        - [yii2-thememanager] - theme manager
+        - [yii2-theme-original] - Yii2 original theme
+        - [yii2-theme-flat] - flat theme
+        - [yii2-pnotify] - JQuery PNotify extension
+        - [yii2-language] - language switcher
+        - [yii2-monitoring] - application monitoring
 
-        The project extensively uses [hidev]() tool to automate repetitive tasks:
+        The project uses [hidev] tool to automate repetitive tasks:
 
-        - generate and update package files: README, license, composer.json
+        - generate and update package files: README, LICENSE, .gitignore, composer.json
+        - keep CHANGELOG file with [chkipper]
         - generate and deploy vhost config file
         - run standard tasks such as running tests and php-cs-fixer
         - substitute yii console script
+
+        [hidev]:                https://hiqdev.com/packages/hidev
+        [hisite]:               https://hiqdev.com/packages/hisite
+        [yii2-thememanager]:    https://hiqdev.com/packages/yii2-thememanager
+        [yii2-theme-original]:  https://hiqdev.com/packages/yii2-theme-original
+        [yii2-theme-flat]:      https://hiqdev.com/packages/yii2-theme-flat
+        [yii2-pnotify]:         https://hiqdev.com/packages/yii2-thememanager
+        [yii2-language]:        https://hiqdev.com/packages/yii2-language
+        [yii2-monitoring]:      https://hiqdev.com/packages/yii2-monitoring
+        [chkipper]:             https://hiqdev.com/packages/chkipper
 
 hisite:
     vhost:

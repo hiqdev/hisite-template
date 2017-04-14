@@ -1,14 +1,14 @@
 {
-    "name": "hiqdev/hisite",
+    "name": "hiqdev/hisite-template",
     "type": "project",
     "description": "HiSite Project Template",
     "keywords": [],
-    "homepage": "https://github.com/hiqdev/hisite",
+    "homepage": "https://github.com/hiqdev/hisite-template",
     "license": "BSD-3-Clause",
     "support": {
-        "source": "https://github.com/hiqdev/hisite",
-        "issues": "https://github.com/hiqdev/hisite/issues",
-        "wiki": "https://github.com/hiqdev/hisite/wiki",
+        "source": "https://github.com/hiqdev/hisite-template",
+        "issues": "https://github.com/hiqdev/hisite-template/issues",
+        "wiki": "https://github.com/hiqdev/hisite-template/wiki",
         "email": "support@hiqdev.com",
         "forum": "http://forum.hiqdev.com/"
     },
@@ -42,7 +42,7 @@
         "hiqdev/hisite-core": "<2.0 || dev-master",
         "hiqdev/yii2-pnotify": "<2.0 || dev-master",
         "hiqdev/yii2-language": "<2.0 || dev-master",
-        "hiqdev/yii2-error-notifier": "<2.0 || dev-master",
+        "hiqdev/yii2-monitoring": "<2.0 || dev-master",
         "hiqdev/yii2-thememanager": "<2.0 || dev-master",
         "hiqdev/yii2-theme-flat": "<2.0 || dev-master",
         "hiqdev/yii2-theme-original": "<2.0 || dev-master"
@@ -54,7 +54,7 @@
     },
     "autoload": {
         "psr-4": {
-            "hisite\\skeleton\\": "src"
+            "hiqdev\\sites\\hisite\\hiqdevcom\\": "src"
         }
     },
     "extra": {
