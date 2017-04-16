@@ -6,5 +6,7 @@ return [
 
     'cookieValidationKey' => 'w42sd23fdsvsew234',
 
-    'debug_allowed_ips'   => ['127.0.0.1'],
+    'debug.allowedIps'   => ['127.0.0.1'],
+
+    'themeManager.defaultTheme' => 'original',
 ];
