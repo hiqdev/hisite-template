@@ -40,7 +40,5 @@ phpunit.phar
 # Binaries
 ocular.phar
 
-# web files
-/wp-content
-web/assets
-web/index.php
+# local configuration
+.env
