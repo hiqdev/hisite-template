@@ -38,7 +38,7 @@ package:
         [yii2-monitoring]:      https://hiqdev.com/packages/yii2-monitoring
         [chkipper]:             https://hiqdev.com/packages/chkipper
 
-hisite:
+webapp:
     vhost:
         domain: hisite.hiqdev.com
 
