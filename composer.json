@@ -58,9 +58,13 @@
     },
     "extra": {
         "config-plugin": {
-            "hisite": "src/config/hisite.php",
             "params": "src/config/params.php"
         }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "./vendor/bin/hidev deploy"
+        ]
     },
     "minimum-stability": "dev",
     "repositories": [
