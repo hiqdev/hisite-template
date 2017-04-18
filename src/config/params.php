@@ -8,6 +8,7 @@ return [
     'debug.allowedIps'          => ['127.0.0.1'],
 
     'monitoring.email.to'       => '',
+    'monitoring.email.from'     => '',
 
     'cookieValidationKey'       => 'w42sd23fdsvsew234',
 
