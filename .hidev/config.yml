@@ -6,9 +6,9 @@ package:
     license:        BSD-3-Clause
     headline:       HiSite
     description:    |
-        HiSite is a way to build modular Yii2 projects with plugins.
+        [HiSite] is a way to build modular Yii2 projects with plugins.
 
-        This package is a template to start your project with.
+        This package is a template to start your HiSite project with.
 
         It includes:
 

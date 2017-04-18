@@ -9,9 +9,9 @@
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/hisite-template.svg)](https://scrutinizer-ci.com/g/hiqdev/hisite-template/)
 [![Dependency Status](https://www.versioneye.com/php/hiqdev:hisite-template/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:hisite-template/dev-master)
 
-HiSite is a way to build modular Yii2 projects with plugins.
+[HiSite] is a way to build modular Yii2 projects with plugins.
 
-This package is a template to start your project with.
+This package is a template to start your HiSite project with.
 
 It includes:
 
