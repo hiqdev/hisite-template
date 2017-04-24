@@ -13,7 +13,7 @@ package:
 
         - [hisite] - HiSite basic project
         - [yii2-theme-original] - Yii2 original theme
-        - [yii2-pnotify] - JQuery [PNotify] extension
+        - [yii2-pnotify] - flash notifications with JQuery [PNotify]
         - [yii2-language] - language switcher
         - [yii2-monitoring] - application monitoring
 
@@ -27,7 +27,7 @@ package:
 
 webapp:
     vhost:
-        domain: hisite.hiqdev.com
+        domain: $_ENV['HOSTS']
 
 vendor:
     name:           hiqdev
