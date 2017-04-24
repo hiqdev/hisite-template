@@ -17,22 +17,12 @@ package:
         - [yii2-language] - language switcher
         - [yii2-monitoring] - application monitoring
 
-        The project uses [hidev] tool to automate repetitive tasks:
-
-        - generate and keep up to date package files: README, LICENSE, .gitignore, composer.json
-        - keep CHANGELOG file with [chkipper]
-        - generate and deploy Nginx virtual host config file
-        - run standard tasks such as running tests and `php-cs-fixer`
-        - substitute `yii` console script
-
         [yii2]:                 http://www.yiiframework.com/
-        [hidev]:                https://github.com/hiqdev/hidev
         [HiSite]:               https://github.com/hiqdev/hisite
         [yii2-theme-original]:  https://github.com/hiqdev/yii2-theme-original
         [yii2-pnotify]:         https://github.com/hiqdev/yii2-thememanager
         [yii2-language]:        https://github.com/hiqdev/yii2-language
         [yii2-monitoring]:      https://github.com/hiqdev/yii2-monitoring
-        [chkipper]:             https://github.com/hiqdev/chkipper
         [pnotify]:              https://github.com/sciactive/pnotify
 
 webapp:

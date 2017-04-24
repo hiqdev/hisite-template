@@ -21,22 +21,12 @@ It includes:
 - [yii2-language] - language switcher
 - [yii2-monitoring] - application monitoring
 
-The project uses [hidev] tool to automate repetitive tasks:
-
-- generate and keep up to date package files: README, LICENSE, .gitignore, composer.json
-- keep CHANGELOG file with [chkipper]
-- generate and deploy Nginx virtual host config file
-- run standard tasks such as running tests and `php-cs-fixer`
-- substitute `yii` console script
-
 [yii2]:                 http://www.yiiframework.com/
-[hidev]:                https://github.com/hiqdev/hidev
 [HiSite]:               https://github.com/hiqdev/hisite
 [yii2-theme-original]:  https://github.com/hiqdev/yii2-theme-original
 [yii2-pnotify]:         https://github.com/hiqdev/yii2-thememanager
 [yii2-language]:        https://github.com/hiqdev/yii2-language
 [yii2-monitoring]:      https://github.com/hiqdev/yii2-monitoring
-[chkipper]:             https://github.com/hiqdev/chkipper
 [pnotify]:              https://github.com/sciactive/pnotify
 
 ## Installation
@@ -47,7 +37,20 @@ Preferred way to install this project is through [composer]:
 php composer.phar create-project --stability=dev "hiqdev/hisite-template:*" dir
 ```
 
-Copy and tune [.env.example] to set project wide options.
+Copy and tune [.env.example] to set project wide options:
+
+- `ENV` - environment env/prod, will be used to setup `YII_ENV` constant
+- `HOSTS` - hostname, used when generating nginx config, see below
+
+The project uses [hidev] tool to automate repetitive tasks:
+
+- generate and chmod standard files and directories needed to run application:
+    - `web/index.php`, `src/config/bootstrap.php`
+    - `web/assets/`, `runtime/`
+- generate and keep up to date package files: README, LICENSE, .gitignore, composer.json
+- keep CHANGELOG file with [chkipper]
+- run standard tasks such as running tests and `php-cs-fixer`
+- substitute `yii` console script
 
 Also [hidev] can generate and install nginx vhost config with this command:
 
@@ -55,8 +58,10 @@ Also [hidev] can generate and install nginx vhost config with this command:
 ./vendor/bin/hidev nginx/deploy
 ```
 
-[composer]: http://getcomposer.org/download/
-[.env.example]: .env.example
+[composer]:         http://getcomposer.org/download/
+[.env.example]:     .env.example
+[hidev]:            https://github.com/hiqdev/hidev
+[chkipper]:         https://github.com/hiqdev/chkipper
 
 ## License
 
