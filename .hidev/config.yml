@@ -27,7 +27,7 @@ package:
 
 webapp:
     vhost:
-        domain: $_ENV['HOSTS']
+        domains:    $_ENV['HOSTS']
 
 vendor:
     name:           hiqdev
