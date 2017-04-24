@@ -9,37 +9,35 @@
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/hisite-template.svg)](https://scrutinizer-ci.com/g/hiqdev/hisite-template/)
 [![Dependency Status](https://www.versioneye.com/php/hiqdev:hisite-template/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:hisite-template/dev-master)
 
-[HiSite] is a way to build modular Yii2 projects with plugins.
+[HiSite] is a base project for building modular [Yii2] web applications from plugins.
 
 This package is a template to start your HiSite project with.
 
 It includes:
 
-- [hisite] - hisite basic project
-- [yii2-thememanager] - theme manager
+- [hisite] - HiSite basic project
 - [yii2-theme-original] - Yii2 original theme
-- [yii2-theme-flat] - flat theme
-- [yii2-pnotify] - JQuery PNotify extension
+- [yii2-pnotify] - JQuery [PNotify] extension
 - [yii2-language] - language switcher
 - [yii2-monitoring] - application monitoring
 
 The project uses [hidev] tool to automate repetitive tasks:
 
-- generate and update package files: README, LICENSE, .gitignore, composer.json
+- generate and keep up to date package files: README, LICENSE, .gitignore, composer.json
 - keep CHANGELOG file with [chkipper]
-- generate and deploy vhost config file
-- run standard tasks such as running tests and php-cs-fixer
-- substitute yii console script
+- generate and deploy Nginx virtual host config file
+- run standard tasks such as running tests and `php-cs-fixer`
+- substitute `yii` console script
 
-[hidev]:                https://hiqdev.com/packages/hidev
-[hisite]:               https://hiqdev.com/packages/hisite
-[yii2-thememanager]:    https://hiqdev.com/packages/yii2-thememanager
-[yii2-theme-original]:  https://hiqdev.com/packages/yii2-theme-original
-[yii2-theme-flat]:      https://hiqdev.com/packages/yii2-theme-flat
-[yii2-pnotify]:         https://hiqdev.com/packages/yii2-thememanager
-[yii2-language]:        https://hiqdev.com/packages/yii2-language
-[yii2-monitoring]:      https://hiqdev.com/packages/yii2-monitoring
-[chkipper]:             https://hiqdev.com/packages/chkipper
+[yii2]:                 http://www.yiiframework.com/
+[hidev]:                https://github.com/hiqdev/hidev
+[HiSite]:               https://github.com/hiqdev/hisite
+[yii2-theme-original]:  https://github.com/hiqdev/yii2-theme-original
+[yii2-pnotify]:         https://github.com/hiqdev/yii2-thememanager
+[yii2-language]:        https://github.com/hiqdev/yii2-language
+[yii2-monitoring]:      https://github.com/hiqdev/yii2-monitoring
+[chkipper]:             https://github.com/hiqdev/chkipper
+[pnotify]:              https://github.com/sciactive/pnotify
 
 ## Installation
 
