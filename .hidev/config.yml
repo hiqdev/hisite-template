@@ -27,6 +27,7 @@ package:
 
 webapp:
     vhost:
+        ssl:        $_ENV['SSL']
         domains:    $_ENV['HOSTS']
 
 vendor:

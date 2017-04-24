@@ -17,7 +17,7 @@ It includes:
 
 - [hisite] - HiSite basic project
 - [yii2-theme-original] - Yii2 original theme
-- [yii2-pnotify] - JQuery [PNotify] extension
+- [yii2-pnotify] - flash notifications with JQuery [PNotify]
 - [yii2-language] - language switcher
 - [yii2-monitoring] - application monitoring
 
@@ -37,10 +37,11 @@ Preferred way to install this project is through [composer]:
 php composer.phar create-project --stability=dev "hiqdev/hisite-template:*" dir
 ```
 
-Copy and tune [.env.example] to set project wide options:
+Copy [.env.example] to `.env` and tune it to set project wide options:
 
 - `ENV` - environment env/prod, will be used to setup `YII_ENV` constant
-- `HOSTS` - hostname, used when generating nginx config, see below
+- `SSL` - enable ssl, used for generating nginx config, see below
+- `HOSTS` - hostname, used for generating nginx config, see below
 
 The project uses [hidev] tool to automate repetitive tasks:
 
