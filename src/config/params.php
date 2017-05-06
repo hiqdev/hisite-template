@@ -1,8 +1,11 @@
 <?php
 
 return [
-    'app.id'      => 'hisite',
-    'app.name'    => 'HiSite',
+    'app.id'                    => 'hisite',
+    'app.name'                  => 'HiSite',
+
+    'organization.url'          => 'https://hiqdev.com/',
+    'organization.name'         => 'HiQDev',
 
     'debug.enabled'             => true,
     'debug.allowedIps'          => ['127.0.0.1'],
@@ -12,5 +15,5 @@ return [
 
     'cookieValidationKey'       => 'w42sd23fdsvsew234',
 
-    'themeManager.defaultTheme' => 'original',
+    'themeManager.defaultTheme' => '',
 ];
