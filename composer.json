@@ -43,7 +43,7 @@
         "hiqdev/yii2-pnotify": "<2.0 || dev-master",
         "hiqdev/yii2-language": "<2.0 || dev-master",
         "hiqdev/yii2-monitoring": "<2.0 || dev-master",
-        "hiqdev/yii2-theme-original": "<2.0 || dev-master"
+        "hiqdev/yii2-theme-flat": "<2.0 || dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "^2.0",
