@@ -2,7 +2,6 @@
     "name": "hiqdev/hisite-template",
     "type": "project",
     "description": "HiSite Project Template",
-    "keywords": [],
     "homepage": "https://github.com/hiqdev/hisite-template",
     "license": "BSD-3-Clause",
     "support": {
@@ -50,6 +49,7 @@
         "hiqdev/hidev": "<2.0 || dev-master",
         "hiqdev/hidev-php": "<2.0 || dev-master"
     },
+    "keywords": [],
     "autoload": {
         "psr-4": {
             "hiqdev\\sites\\hisite\\hiqdevcom\\": "src"
