@@ -11,14 +11,15 @@ package:
 
         It includes:
 
-        - [hisite] - HiSite basic project
-        - [yii2-theme-original] - Yii2 original theme
-        - [yii2-pnotify] - flash notifications with JQuery [PNotify]
-        - [yii2-language] - language switcher
+        - [hisite]          - HiSite basic project
+        - [yii2-theme-flat] - Flat theme
+        - [yii2-pnotify]    - flash notifications with JQuery [PNotify]
+        - [yii2-language]   - language detecting and switching
         - [yii2-monitoring] - application monitoring
 
         [yii2]:                 http://www.yiiframework.com/
         [HiSite]:               https://github.com/hiqdev/hisite
+        [yii2-theme-flat]:      https://github.com/hiqdev/yii2-theme-flat
         [yii2-theme-original]:  https://github.com/hiqdev/yii2-theme-original
         [yii2-pnotify]:         https://github.com/hiqdev/yii2-thememanager
         [yii2-language]:        https://github.com/hiqdev/yii2-language
