@@ -47,8 +47,8 @@ But it can do a bit more.
 Copy [.env.example] to `.env` and tune it to set project wide options:
 
 - `ENV` - environment env/prod, will be used to setup `YII_ENV` constant
-- `SSL` - enable ssl, used for nginx config
-- `HOSTS` - hostname(s), used for nginx config
+- `SSL` - enable SSL, used for NGINX config
+- `HOSTS` - hostname(s), used for NGINX config
 
 To see generated NGINX config without actually installing it use the following command:
 
