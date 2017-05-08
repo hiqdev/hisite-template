@@ -25,6 +25,8 @@ package:
         [yii2-monitoring]:      https://github.com/hiqdev/yii2-monitoring
         [pnotify]:              https://github.com/sciactive/pnotify
 
+        [![Live Demo](https://img.shields.io/badge/live-demo-brightgreen.svg)](https://hisite.hiqdev.com/)
+
 webapp:
     vhost:
         ssl:        $_ENV['SSL']

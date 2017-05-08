@@ -29,6 +29,8 @@ It includes:
 [yii2-monitoring]:      https://github.com/hiqdev/yii2-monitoring
 [pnotify]:              https://github.com/sciactive/pnotify
 
+[![Live Demo](https://img.shields.io/badge/live-demo-brightgreen.svg)](https://hisite.hiqdev.com/)
+
 ## Installation
 
 Preferred way to install this project is through [composer]:
@@ -41,7 +43,7 @@ Copy [.env.example] to `.env` and tune it to set project wide options:
 
 - `ENV` - environment env/prod, will be used to setup `YII_ENV` constant
 - `SSL` - enable ssl, used for generating nginx config, see below
-- `HOSTS` - hostname, used for generating nginx config, see below
+- `HOSTS` - hostname(s), used for generating nginx config, see below
 
 The project uses [hidev] tool to automate repetitive tasks:
 

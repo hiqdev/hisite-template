@@ -8,7 +8,7 @@ Copy [.env.example] to `.env` and tune it to set project wide options:
 
 - `ENV` - environment env/prod, will be used to setup `YII_ENV` constant
 - `SSL` - enable ssl, used for generating nginx config, see below
-- `HOSTS` - hostname, used for generating nginx config, see below
+- `HOSTS` - hostname(s), used for generating nginx config, see below
 
 The project uses [hidev] tool to automate repetitive tasks:
 
