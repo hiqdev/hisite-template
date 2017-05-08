@@ -39,13 +39,30 @@ Preferred way to install this project is through [composer]:
 php composer.phar create-project --stability=dev "hiqdev/hisite-template:*" dir
 ```
 
+That's it &mdash; the project is ready to be served with web server.
+But it can do a bit more.
+
+### Generate and install NGINX vhost config
+
 Copy [.env.example] to `.env` and tune it to set project wide options:
 
 - `ENV` - environment env/prod, will be used to setup `YII_ENV` constant
-- `SSL` - enable ssl, used for generating nginx config, see below
-- `HOSTS` - hostname(s), used for generating nginx config, see below
+- `SSL` - enable ssl, used for nginx config
+- `HOSTS` - hostname(s), used for nginx config
 
-The project uses [hidev] tool to automate repetitive tasks:
+To see generated NGINX config without actually installing it use the following command:
+
+```sh
+./vendor/bin/hidev nginx/dump
+```
+
+To install config and restart NGINX run:
+
+```sh
+./vendor/bin/hidev nginx/deploy
+```
+
+Also this project uses [hidev] tool to automate other tasks:
 
 - generate and chmod standard files and directories needed to run application:
     - `web/index.php`, `src/config/bootstrap.php`
@@ -54,12 +71,6 @@ The project uses [hidev] tool to automate repetitive tasks:
 - keep CHANGELOG file with [chkipper]
 - run standard tasks such as running tests and `php-cs-fixer`
 - substitute `yii` console script
-
-Also [hidev] can generate and install nginx vhost config with this command:
-
-```sh
-./vendor/bin/hidev nginx/deploy
-```
 
 [composer]:         http://getcomposer.org/download/
 [.env.example]:     .env.example
