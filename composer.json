@@ -63,11 +63,6 @@
             ]
         }
     },
-    "scripts": {
-        "post-autoload-dump": [
-            "./vendor/bin/hidev deploy"
-        ]
-    },
     "minimum-stability": "dev",
     "repositories": [
         {
