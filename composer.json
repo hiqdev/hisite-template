@@ -38,7 +38,7 @@
         }
     ],
     "require": {
-        "hiqdev/hisite": "<2.0 || dev-master",
+        "hiqdev/hisite": "<2.0 || dev-master || 3.0.x-dev",
         "hiqdev/yii2-pnotify": "<2.0 || dev-master",
         "hiqdev/yii2-language": "<2.0 || dev-master",
         "hiqdev/yii2-monitoring": "<2.0 || dev-master",
